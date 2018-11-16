@@ -61,7 +61,7 @@ mysql.createConnection({
       
       app.use(config.rootApi + '/members', MenberRouter)
       
-      app.listen(config.port, () => console.log('Started on port 8080'))
+      app.listen(config.port, () => console.log('Started on port 8081'))
 }).catch((err) => {
       console.log('error during database')
       console.log(err.message)
